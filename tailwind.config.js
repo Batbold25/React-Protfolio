@@ -6,7 +6,15 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+
     extend: {
+
+      spacing: {
+        '1216': '304rem',
+      },
+      boxShadow: {
+        'bata': '30px 30px 0px #E5E7EB',
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
