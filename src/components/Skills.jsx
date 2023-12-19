@@ -19,18 +19,17 @@ import { GitIcon } from "./Svj-Photos/GitIcon";
 
 export const Skills = () => {
   return (
-    <div className="w-screen flex justify-center py-24 px-20">
-      <div className="w-4/5 flex flex-col items-center gap-12">
+    <div className="w-screen flex justify-center py-12 md:py-24 px-6 md:px-20">
+      <div className="w-full md:w-4/5 flex flex-col items-center gap-12">
         <div className="flex flex-col items-center gap-4">
           <button className="bg-gray-200 w-24 rounded">skills</button>
-
-          <h2 className="text-[20px] text-gray-600 leading-7">
-            The skills, tools and technologies I am really good at:
+          <h2 className="text-lg md:text-2xl text-gray-600 leading-7">
+            The skills, tools, and technologies I am really good at:
           </h2>
         </div>
 
-        <div className="flex flex-col gap-12">
-          <div className=" flex gap-12">
+        <div className="flex flex-col gap-8 md:gap-12">
+          <div className="flex flex-wrap gap-6 md:gap-12">
             <div className="flex flex-col items-center">
               <JavasIcon />
               <p>Javascript</p>
@@ -71,7 +70,7 @@ export const Skills = () => {
             </div>
           </div>
 
-          <div className=" flex gap-12">
+          <div className="flex flex-wrap gap-6 md:gap-12">
             <div className="flex flex-col items-center">
               <img src="./postgresql.png" />
               <p>PostgreSQL</p>
