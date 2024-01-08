@@ -13,7 +13,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-   <>
+   <div>
     <Header/>
     <Main/>
     <About/>
@@ -22,6 +22,7 @@ export default function Home() {
     <Work/>
     <Contact/>
     <Fooder/>
-   </>
+  </div>
+    
   )
 }

@@ -8,7 +8,7 @@ export const Header = () => {
           <img src="/NEG.png" height={30} />
         </div>
         <div className="w-1/2 flex justify-end items-center">
-          <div className="hidden md:flex gap-6 text-base font-medium text-slate-500">
+          <div className="hidden lg:flex gap-6 text-base font-medium text-slate-500">
             <p>About</p>
             <p>Work</p>
             <p>Testimonials</p>

@@ -59,7 +59,7 @@ export const Main = () => {
         <img
           src="/Pic.png"
           alt="Profile"
-          className="shadow-bata w-full md:w-304 h-80"
+          className=" place-self-center drop-shadow-md lg:block lg:shadow-bata w-2/3 h-auto md:w-304"
         />
       </div>
     </main>
