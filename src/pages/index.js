@@ -8,20 +8,24 @@ import { Experience } from '@/components/Experience'
 import { Work } from '@/components/Work'
 import { Contact } from '@/components/Contact'
 import { Fooder } from '@/components/Fooder'
+import { ThemeProvider } from '@/context/themeDark'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
    <div>
-    <Header/>
-    <Main/>
-    <About/>
-    <Skills/>
-    <Experience/>
-    <Work/>
-    <Contact/>
-    <Fooder/>
+    <ThemeProvider>
+      <Header/>
+      <Main/>
+      <About/>
+      <Skills/>
+      <Experience/>
+      <Work/>
+      <Contact/>
+      <Fooder/>
+    </ThemeProvider>
+    
   </div>
     
   )
